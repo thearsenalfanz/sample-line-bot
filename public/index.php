@@ -22,6 +22,8 @@ use LINE\LINEBot\KitchenSink\Setting;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
+echo "Hello, this is a line bot test";
+
 $setting = Setting::getSetting();
 $app = new \Slim\App($setting);
 
