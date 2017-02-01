@@ -30,6 +30,6 @@ $app = new \Slim\App($setting);
 (new Route())->register($app);
 (new Dependency())->register($app);
 
-var_dump($app);
+var_dump($app->run());
 
 $app->run();
